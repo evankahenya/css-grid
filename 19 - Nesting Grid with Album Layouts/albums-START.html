@@ -156,21 +156,24 @@
       .albums {
         display: grid;
         gap: 20px;
-        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
         justify-items: stretch;
       }
       .album {
         padding: 20px;
+        color: whitesmoke;
+        font-weight: 100;
         display: grid;
-        gap: 5px;
-        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        grid-template-columns: 150px 1fr;
         justify-items: start;
         align-items: start;
         height: auto;
         background-color: rgba(255, 255, 255, 0.5);
+        box-shadow: 0 0 rgba(0, 0, 0.1);
       }
-      .album img {
-        width: 200px;
+      .album__artwork {
+        width: 100%;
       }
     </style>
   </body>
